@@ -1,11 +1,12 @@
 import { LitElement, html, css } from 'lit';
+import GUN from 'https://cdn.skypack.dev/gun';
 
 const logo = new URL('../assets/open-wc-logo.svg', import.meta.url).href;
 
 class AppShell extends LitElement {
   static properties = {
     header: { type: String },
-  }
+  };
 
   static styles = css`
     :host {
@@ -53,6 +54,16 @@ class AppShell extends LitElement {
   constructor() {
     super();
     this.header = 'My app';
+
+    this.db = GUN(
+      [
+        'http://localhost:8765/gun',
+        // Commented out for now to prevent filling our local database with too much data for the storage backend's capacity
+        // 'https://gun-manhattan.herokuapp.com/gun'
+      ],
+      { localStorage: false },
+    );
+    this.user = this.db.user().recall({ sessionStorage: true });
   }
 
   render() {
