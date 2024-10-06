@@ -16,21 +16,24 @@
     "build": "rimraf dist && rollup -c rollup.config.js && npm run analyze -- --exclude dist",
     "start:build": "web-dev-server --root-dir dist --app-index index.html --open",
     "analyze": "cem analyze --litelement",
-    "start": "web-dev-server"
+    "start": "web-dev-server",
+    "start:gun": "cd node_modules/gun && npm start"
   },
   "dependencies": {
+    "gun": "^0.2020.1240",
     "lit": "^3.1.4"
   },
   "devDependencies": {
+    "@chromatic-com/storybook": "^1.6.1",
     "@custom-elements-manifest/analyzer": "^0.10.3",
     "@open-wc/eslint-config": "^12.0.3",
     "@open-wc/testing": "^4.0.0",
     "@rollup/plugin-babel": "^6.0.4",
     "@rollup/plugin-node-resolve": "^15.2.3",
-    "@storybook/addon-a11y": "^7.6.20",
-    "@storybook/addon-essentials": "^7.6.20",
-    "@storybook/addon-links": "^7.6.20",
-    "@storybook/web-components": "^7.6.20",
+    "@storybook/addon-a11y": "^8.2.8",
+    "@storybook/addon-essentials": "^8.2.8",
+    "@storybook/addon-links": "^8.2.8",
+    "@storybook/web-components": "^8.2.8",
     "@web/dev-server": "^0.4.6",
     "@web/rollup-plugin-html": "^2.3.0",
     "@web/rollup-plugin-import-meta-assets": "^2.2.1",
@@ -48,7 +51,7 @@
     "rollup": "^4.18.1",
     "rollup-plugin-esbuild": "^6.1.1",
     "rollup-plugin-workbox": "^8.1.0",
-    "storybook": "^7.6.20"
+    "storybook": "^8.2.8"
   },
   "eslintConfig": {
     "extends": [

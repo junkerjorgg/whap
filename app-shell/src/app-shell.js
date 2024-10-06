@@ -1,7 +1,6 @@
 import { LitElement, html, css } from 'lit';
-import GUN from 'https://cdn.skypack.dev/gun';
 
-const logo = new URL('../assets/open-wc-logo.svg', import.meta.url).href;
+import './organisms/matter-list/matter-list.js';
 
 class AppShell extends LitElement {
   static properties = {
@@ -27,20 +26,6 @@ class AppShell extends LitElement {
       flex-grow: 1;
     }
 
-    .logo {
-      margin-top: 36px;
-      animation: app-logo-spin infinite 20s linear;
-    }
-
-    @keyframes app-logo-spin {
-      from {
-        transform: rotate(0deg);
-      }
-      to {
-        transform: rotate(360deg);
-      }
-    }
-
     .app-footer {
       font-size: calc(12px + 0.5vmin);
       align-items: center;
@@ -53,34 +38,15 @@ class AppShell extends LitElement {
 
   constructor() {
     super();
-    this.header = 'My app';
-
-    this.db = GUN(
-      [
-        'http://localhost:8765/gun',
-        // Commented out for now to prevent filling our local database with too much data for the storage backend's capacity
-        // 'https://gun-manhattan.herokuapp.com/gun'
-      ],
-      { localStorage: false },
-    );
-    this.user = this.db.user().recall({ sessionStorage: true });
+    this.header = 'OPC Discipline Matters';
   }
 
   render() {
     return html`
       <main>
-        <div class="logo"><img alt="open-wc logo" src=${logo} /></div>
         <h1>${this.header}</h1>
 
-        <p>Edit <code>src/AppShell.js</code> and save to reload.</p>
-        <a
-          class="app-link"
-          href="https://open-wc.org/guides/developing-components/code-examples/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Code examples
-        </a>
+        <matter-list></matter-list>
       </main>
 
       <p class="app-footer">
