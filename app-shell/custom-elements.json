@@ -1,0 +1,278 @@
+{
+  "schemaVersion": "1.0.0",
+  "readme": "",
+  "modules": [
+    {
+      "kind": "javascript-module",
+      "path": "src/app-shell.js",
+      "declarations": [
+        {
+          "kind": "class",
+          "description": "",
+          "name": "AppShell",
+          "members": [
+            {
+              "kind": "field",
+              "name": "header",
+              "privacy": "public",
+              "type": {
+                "text": "string"
+              },
+              "default": "'My app'",
+              "attribute": "header"
+            },
+            {
+              "kind": "field",
+              "name": "db",
+              "privacy": "public",
+              "type": {
+                "text": "object"
+              },
+              "attribute": "db"
+            },
+            {
+              "kind": "field",
+              "name": "user",
+              "privacy": "public",
+              "type": {
+                "text": "object"
+              },
+              "attribute": "user"
+            }
+          ],
+          "attributes": [
+            {
+              "name": "db",
+              "type": {
+                "text": "object"
+              },
+              "fieldName": "db"
+            },
+            {
+              "name": "header",
+              "type": {
+                "text": "string"
+              },
+              "default": "'My app'",
+              "fieldName": "header"
+            },
+            {
+              "name": "user",
+              "type": {
+                "text": "object"
+              },
+              "fieldName": "user"
+            }
+          ],
+          "superclass": {
+            "name": "LitElement",
+            "package": "lit"
+          },
+          "tagName": "app-shell",
+          "customElement": true
+        }
+      ],
+      "exports": [
+        {
+          "kind": "custom-element-definition",
+          "name": "app-shell",
+          "declaration": {
+            "name": "AppShell",
+            "module": "src/app-shell.js"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "stories/app-shell.stories.js",
+      "declarations": [
+        {
+          "kind": "variable",
+          "name": "App"
+        }
+      ],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "default",
+          "declaration": {
+            "module": "stories/app-shell.stories.js"
+          }
+        },
+        {
+          "kind": "js",
+          "name": "App",
+          "declaration": {
+            "name": "App",
+            "module": "stories/app-shell.stories.js"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "src/organisms/charge-view/charge-view.js",
+      "declarations": [],
+      "exports": [
+        {
+          "kind": "custom-element-definition",
+          "name": "charge-view",
+          "declaration": {
+            "name": "ChargeView",
+            "module": "/src/organisms/charge-view/src/ChargeView.js"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "src/organisms/charge-view/index.js",
+      "declarations": [],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "ChargeView",
+          "declaration": {
+            "name": "ChargeView",
+            "module": "./src/ChargeView.js"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "src/organisms/charge-view/src/ChargeView.js",
+      "declarations": [
+        {
+          "kind": "class",
+          "description": "",
+          "name": "ChargeView",
+          "members": [
+            {
+              "kind": "method",
+              "name": "__increment"
+            },
+            {
+              "kind": "field",
+              "name": "header",
+              "privacy": "public",
+              "type": {
+                "text": "string"
+              },
+              "default": "'Hey there'",
+              "attribute": "header"
+            },
+            {
+              "kind": "field",
+              "name": "counter",
+              "privacy": "public",
+              "type": {
+                "text": "number"
+              },
+              "default": "5",
+              "attribute": "counter"
+            }
+          ],
+          "attributes": [
+            {
+              "name": "header",
+              "type": {
+                "text": "string"
+              },
+              "default": "'Hey there'",
+              "fieldName": "header"
+            },
+            {
+              "name": "counter",
+              "type": {
+                "text": "number"
+              },
+              "default": "5",
+              "fieldName": "counter"
+            }
+          ],
+          "superclass": {
+            "name": "LitElement",
+            "package": "lit"
+          },
+          "tagName": "charge-view",
+          "customElement": true
+        }
+      ],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "ChargeView",
+          "declaration": {
+            "name": "ChargeView",
+            "module": "src/organisms/charge-view/src/ChargeView.js"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "src/organisms/charge-view/stories/index.stories.js",
+      "declarations": [
+        {
+          "kind": "variable",
+          "name": "Regular"
+        },
+        {
+          "kind": "variable",
+          "name": "CustomHeader"
+        },
+        {
+          "kind": "variable",
+          "name": "CustomCounter"
+        },
+        {
+          "kind": "variable",
+          "name": "SlottedContent"
+        }
+      ],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "default",
+          "declaration": {
+            "module": "src/organisms/charge-view/stories/index.stories.js"
+          }
+        },
+        {
+          "kind": "js",
+          "name": "Regular",
+          "declaration": {
+            "name": "Regular",
+            "module": "src/organisms/charge-view/stories/index.stories.js"
+          }
+        },
+        {
+          "kind": "js",
+          "name": "CustomHeader",
+          "declaration": {
+            "name": "CustomHeader",
+            "module": "src/organisms/charge-view/stories/index.stories.js"
+          }
+        },
+        {
+          "kind": "js",
+          "name": "CustomCounter",
+          "declaration": {
+            "name": "CustomCounter",
+            "module": "src/organisms/charge-view/stories/index.stories.js"
+          }
+        },
+        {
+          "kind": "js",
+          "name": "SlottedContent",
+          "declaration": {
+            "name": "SlottedContent",
+            "module": "src/organisms/charge-view/stories/index.stories.js"
+          }
+        }
+      ]
+    }
+  ]
+}

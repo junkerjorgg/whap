@@ -82,3 +82,7 @@ Kinds of user roles.  Each needs its own view of the data.
 * Judicial Advisory Committee
 * Judicatory
 * Witness
+
+# Encryption
+
+Choose an encryption algorithm that will last.  See https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/ism/cyber-security-guidelines/guidelines-cryptography.

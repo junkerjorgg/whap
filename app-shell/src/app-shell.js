@@ -1,4 +1,6 @@
 import { LitElement, html, css } from 'lit';
+import { gun } from './utils/gun.js';
+window.gun = gun;
 
 import './organisms/matter-list/matter-list.js';
 
