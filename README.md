@@ -85,4 +85,4 @@ Kinds of user roles.  Each needs its own view of the data.
 
 # Encryption
 
-Choose an encryption algorithm that will last.  See https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/ism/cyber-security-guidelines/guidelines-cryptography.
+Choose an encryption algorithm that will last.  See https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/ism/cyber-security-guidelines/guidelines-cryptography.  Does Gun permit choosing algorithms?  Which algorithms does it use?  Compare with this list.
