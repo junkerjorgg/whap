@@ -76,6 +76,7 @@ All new or updated issue files must adhere to this structure:
 ## 4. UI/Styling Guidelines
 
 - **BeerCSS Integration:** In order to use BeerCSS in Lit elements, use the integration base class provided in https://github.com/timblack1/lit-beercss.
+- **Responsive Design:** Build all UI components with responsive design principles (using flexible layouts, media queries, and container queries) to ensure the application works seamlessly on mobile phones, tablets, and desktop/computer monitor sized screens.
 
 ---
 
