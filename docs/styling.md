@@ -19,3 +19,9 @@ All components and page layouts must be designed responsively to accommodate a w
 
 We recommend using CSS Flexbox, Grid, and Media/Container queries to build interfaces that adapt fluidly.
 
+## Widget Selection and Design Preference
+
+1. **First Preference (BeerCSS)**: Standard components (such as buttons, inputs, dialogs, cards, and tables) should always use BeerCSS widgets and utility classes where available. Refer to BeerCSS's official documentation for usage guidelines.
+2. **Second Preference (Material Design Fallback)**: If a specific widget or complex interactive component is not available or supported within BeerCSS, it should be custom-designed following **Material Design** specifications and visual design tokens to remain visually compatible with the BeerCSS system.
+
+

@@ -77,6 +77,7 @@ All new or updated issue files must adhere to this structure:
 
 - **BeerCSS Integration:** In order to use BeerCSS in Lit elements, use the integration base class provided in https://github.com/timblack1/lit-beercss.
 - **Responsive Design:** Build all UI components with responsive design principles (using flexible layouts, media queries, and container queries) to ensure the application works seamlessly on mobile phones, tablets, and desktop/computer monitor sized screens.
+- **Widget Preference:** Prefer to use BeerCSS widgets when they are available. When it is necessary to create a custom widget which is not available in BeerCSS, use Material Design guidelines and specifications to design it.
 
 ---
 
