@@ -1,3 +1,3 @@
-import { ChargesList } from './src/ChargesList.js';
+import { ChargesList } from './ChargesList.js';
 
 window.customElements.define('charges-list', ChargesList);
