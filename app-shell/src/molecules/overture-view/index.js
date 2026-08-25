@@ -1,1 +1,1 @@
-export { OvertureView } from './src/OvertureView.js';
+export { OvertureView } from './OvertureView.js';

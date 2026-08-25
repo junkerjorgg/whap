@@ -1,1 +1,1 @@
-export { StandardsBrokenView } from './src/StandardsBrokenView.js';
+export { StandardsBrokenView } from './StandardsBrokenView.js';

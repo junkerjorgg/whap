@@ -1,1 +1,1 @@
-export { ChargeView } from './src/ChargeView.js';
+export { ChargeView } from './ChargeView.js';

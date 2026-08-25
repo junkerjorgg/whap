@@ -1,1 +1,1 @@
-export { CaseList } from './src/CaseList.js';
+export { CaseList } from './CaseList.js';

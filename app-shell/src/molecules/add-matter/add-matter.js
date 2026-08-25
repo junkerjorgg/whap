@@ -1,3 +1,3 @@
-import { AddMatter } from './src/AddMatter.js';
+import { AddMatter } from './AddMatter.js';
 
 window.customElements.define('add-matter', AddMatter);

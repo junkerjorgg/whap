@@ -1,1 +1,1 @@
-export { OvertureList } from './src/OvertureList.js';
+export { OvertureList } from './OvertureList.js';

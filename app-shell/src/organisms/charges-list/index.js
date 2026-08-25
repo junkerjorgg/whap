@@ -1,1 +1,1 @@
-export { ChargesList } from './src/ChargesList.js';
+export { ChargesList } from './ChargesList.js';

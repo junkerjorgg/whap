@@ -1,3 +1,3 @@
-import { OvertureList } from './src/OvertureList.js';
+import { OvertureList } from './OvertureList.js';
 
 window.customElements.define('overture-list', OvertureList);

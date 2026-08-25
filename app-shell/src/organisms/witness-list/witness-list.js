@@ -1,3 +1,3 @@
-import { WitnessList } from './src/WitnessList.js';
+import { WitnessList } from './WitnessList.js';
 
 window.customElements.define('witness-list', WitnessList);

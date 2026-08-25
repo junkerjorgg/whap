@@ -1,1 +1,1 @@
-export { AddMatter } from './src/AddMatter.js';
+export { AddMatter } from './AddMatter.js';

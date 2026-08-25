@@ -1,3 +1,3 @@
-import { PreliminaryInvestigation } from './src/PreliminaryInvestigation.js';
+import { PreliminaryInvestigation } from './PreliminaryInvestigation.js';
 
 window.customElements.define('preliminary-investigation', PreliminaryInvestigation);

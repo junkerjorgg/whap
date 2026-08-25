@@ -1,3 +1,3 @@
-import { CaseList } from './src/CaseList.js';
+import { CaseList } from './CaseList.js';
 
 window.customElements.define('case-list', CaseList);

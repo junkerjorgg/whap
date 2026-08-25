@@ -1,1 +1,1 @@
-export { MatterListItem } from './src/MatterListItem.js';
+export { MatterListItem } from './MatterListItem.js';

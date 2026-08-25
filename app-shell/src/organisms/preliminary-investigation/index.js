@@ -1,1 +1,1 @@
-export { PreliminaryInvestigation } from './src/PreliminaryInvestigation.js';
+export { PreliminaryInvestigation } from './PreliminaryInvestigation.js';

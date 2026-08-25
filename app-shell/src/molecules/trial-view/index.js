@@ -1,1 +1,1 @@
-export { TrialView } from './src/TrialView.js';
+export { TrialView } from './TrialView.js';

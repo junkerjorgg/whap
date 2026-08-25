@@ -1,1 +1,1 @@
-export { MatterView } from './src/MatterView.js';
+export { MatterView } from './MatterView.js';

@@ -1,3 +1,3 @@
-import { CaseView } from './src/CaseView.js';
+import { CaseView } from './CaseView.js';
 
 window.customElements.define('case-view', CaseView);

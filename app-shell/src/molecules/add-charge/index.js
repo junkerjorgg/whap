@@ -1,1 +1,1 @@
-export { AddCharge } from './src/AddCharge.js';
+export { AddCharge } from './AddCharge.js';

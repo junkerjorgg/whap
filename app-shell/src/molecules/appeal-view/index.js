@@ -1,1 +1,1 @@
-export { AppealView } from './src/AppealView.js';
+export { AppealView } from './AppealView.js';

@@ -1,1 +1,1 @@
-export { CounselView } from './src/CounselView.js';
+export { CounselView } from './CounselView.js';

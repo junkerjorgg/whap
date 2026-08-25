@@ -1,3 +1,3 @@
-import { AppealView } from './src/AppealView.js';
+import { AppealView } from './AppealView.js';
 
 window.customElements.define('appeal-view', AppealView);

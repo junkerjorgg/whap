@@ -1,3 +1,3 @@
-import { AmendView } from './src/AmendView.js';
+import { AmendView } from './AmendView.js';
 
 window.customElements.define('amend-view', AmendView);

@@ -1,1 +1,1 @@
-export { SupportingDocumentRecordingList } from './src/SupportingDocumentRecordingList.js';
+export { SupportingDocumentRecordingList } from './SupportingDocumentRecordingList.js';

@@ -1,1 +1,1 @@
-export { JudgmentView } from './src/JudgmentView.js';
+export { JudgmentView } from './JudgmentView.js';

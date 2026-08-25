@@ -1,1 +1,1 @@
-export { CounselList } from './src/CounselList.js';
+export { CounselList } from './CounselList.js';

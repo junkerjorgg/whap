@@ -1,3 +1,3 @@
-import { JudgmentView } from './src/JudgmentView.js';
+import { JudgmentView } from './JudgmentView.js';
 
 window.customElements.define('judgment-view', JudgmentView);

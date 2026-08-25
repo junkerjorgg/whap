@@ -1,1 +1,1 @@
-export { CaseView } from './src/CaseView.js';
+export { CaseView } from './CaseView.js';

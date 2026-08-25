@@ -1,1 +1,1 @@
-export { SpecificationList } from './src/SpecificationList.js';
+export { SpecificationList } from './SpecificationList.js';

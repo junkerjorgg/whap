@@ -1,1 +1,1 @@
-export { AmendView } from './src/AmendView.js';
+export { AmendView } from './AmendView.js';

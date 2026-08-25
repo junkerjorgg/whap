@@ -1,1 +1,1 @@
-export { SpecificationView } from './src/SpecificationView.js';
+export { SpecificationView } from './SpecificationView.js';

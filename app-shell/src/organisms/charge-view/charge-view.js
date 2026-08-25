@@ -1,3 +1,3 @@
-import { ChargeView } from './src/ChargeView.js';
+import { ChargeView } from './ChargeView.js';
 
 window.customElements.define('charge-view', ChargeView);

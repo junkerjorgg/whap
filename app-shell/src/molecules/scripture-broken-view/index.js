@@ -1,1 +1,1 @@
-export { ScriptureBrokenView } from './src/ScriptureBrokenView.js';
+export { ScriptureBrokenView } from './ScriptureBrokenView.js';

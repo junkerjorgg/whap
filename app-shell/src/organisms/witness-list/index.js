@@ -1,1 +1,1 @@
-export { WitnessList } from './src/WitnessList.js';
+export { WitnessList } from './WitnessList.js';

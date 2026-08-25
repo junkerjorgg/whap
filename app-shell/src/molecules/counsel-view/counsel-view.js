@@ -1,3 +1,3 @@
-import { CounselView } from './src/CounselView.js';
+import { CounselView } from './CounselView.js';
 
 window.customElements.define('counsel-view', CounselView);

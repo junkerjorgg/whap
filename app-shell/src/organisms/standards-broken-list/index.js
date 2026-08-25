@@ -1,1 +1,1 @@
-export { StandardsBrokenList } from './src/StandardsBrokenList.js';
+export { StandardsBrokenList } from './StandardsBrokenList.js';

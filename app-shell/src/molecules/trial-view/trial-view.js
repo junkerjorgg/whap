@@ -1,3 +1,3 @@
-import { TrialView } from './src/TrialView.js';
+import { TrialView } from './TrialView.js';
 
 window.customElements.define('trial-view', TrialView);

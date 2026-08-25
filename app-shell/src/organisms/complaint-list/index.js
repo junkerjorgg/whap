@@ -1,1 +1,1 @@
-export { ComplaintList } from './src/ComplaintList.js';
+export { ComplaintList } from './ComplaintList.js';

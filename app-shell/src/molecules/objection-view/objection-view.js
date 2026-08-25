@@ -1,3 +1,3 @@
-import { ObjectionView } from './src/ObjectionView.js';
+import { ObjectionView } from './ObjectionView.js';
 
 window.customElements.define('objection-view', ObjectionView);

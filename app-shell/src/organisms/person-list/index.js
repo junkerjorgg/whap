@@ -1,1 +1,1 @@
-export { PersonList } from './src/PersonList.js';
+export { PersonList } from './PersonList.js';

@@ -1,3 +1,3 @@
-import { ObjectionList } from './src/ObjectionList.js';
+import { ObjectionList } from './ObjectionList.js';
 
 window.customElements.define('objection-list', ObjectionList);

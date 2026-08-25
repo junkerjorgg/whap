@@ -1,1 +1,1 @@
-export { SupportingDocumentRecordingView } from './src/SupportingDocumentRecordingView.js';
+export { SupportingDocumentRecordingView } from './SupportingDocumentRecordingView.js';

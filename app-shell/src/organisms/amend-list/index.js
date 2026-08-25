@@ -1,1 +1,1 @@
-export { AmendList } from './src/AmendList.js';
+export { AmendList } from './AmendList.js';

@@ -1,1 +1,1 @@
-export { RelationToCaseList } from './src/RelationToCaseList.js';
+export { RelationToCaseList } from './RelationToCaseList.js';

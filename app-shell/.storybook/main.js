@@ -1,7 +1,7 @@
 const config = {
   stories: [
     '../stories/*.stories.{js,md,mdx}',
-    '../src/**/stories/*.stories.js'
+    '../src/**/*.stories.js'
   ],
 
   framework: {

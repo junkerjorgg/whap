@@ -1,1 +1,1 @@
-export { ObjectionList } from './src/ObjectionList.js';
+export { ObjectionList } from './ObjectionList.js';

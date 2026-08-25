@@ -1,1 +1,1 @@
-export { TrialList } from './src/TrialList.js';
+export { TrialList } from './TrialList.js';

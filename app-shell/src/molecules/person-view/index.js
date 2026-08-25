@@ -1,1 +1,1 @@
-export { PersonView } from './src/PersonView.js';
+export { PersonView } from './PersonView.js';

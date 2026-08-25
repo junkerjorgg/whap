@@ -1,1 +1,1 @@
-export { ObjectionView } from './src/ObjectionView.js';
+export { ObjectionView } from './ObjectionView.js';

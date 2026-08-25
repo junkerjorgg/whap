@@ -1,1 +1,1 @@
-export { AppealList } from './src/AppealList.js';
+export { AppealList } from './AppealList.js';
