@@ -3,6 +3,10 @@
 This is a web application that helps members of the Orthodox Presbyterian
 Church (and others) implement the biblical process for handling sin and conflict.
 
+## Status
+
+It is currently only in the planning stages; it is not yet implemented.  It is seeking input on its design in the form of feature proposals in pull requests.
+
 ## Key goals & features:
 
 * App to guarantee due process in OPC courts
