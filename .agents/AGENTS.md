@@ -69,3 +69,21 @@ All new or updated issue files must adhere to this structure:
 - **Atomicity:** Keep changes tightly scoped to the assigned issue. Do not refactor unrelated modules unless explicitly instructed in the issue specification.
 - **Fail-Fast:** If a blocker, missing dependency, or ambiguous specification is encountered, halt execution, log the blocker under `## Agent Activity Log`, and prompt the user for clarification before modifying additional files.
 - **Clean Git Commits:** When committing, reference the issue ID in the format: `feat(scope): #<ID> summary of changes`.  To support semantic-release, if a commit is a breaking change, label it with `BREAKING CHANGE:"` following the Conventional Commits specification.
+- **Book of Discipline Compliance:** The application implements the roles, steps, and processes described in the Book of Discipline of the Orthodox Presbyterian Church (OPC), available at https://opc.org/BCO/BD.html. Use this reference as the canonical workflow and terminology guide for cases, charges, trials, appeals, and judicatory processes.
+
+---
+
+## 4. UI/Styling Guidelines
+
+- **BeerCSS Integration:** In order to use BeerCSS in Lit elements, use the integration base class provided in https://github.com/timblack1/lit-beercss.
+
+---
+
+## 5. Security & Access Control
+
+- **Data Access Patterns:** All access to privileged data (such as case files, evidence, and specifications) is granted explicitly on a peer-to-peer basis.
+  - User B may only access User A's data if User A has granted B access through the UI (e.g., by assigning them a case role requiring that access).
+  - The UI must expose controls (buttons) for User A to grant/revoke B's access based on their role.
+  - At the database level (GunDB), read access must be granted by User A issuing a read-only certificate to User B for the specific case's data. This pattern must be implemented consistently throughout the app.
+
+
