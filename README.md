@@ -105,6 +105,10 @@ User
         - Church membership
         - Office, if any
         - Relation to case
+Organization
+  - Name
+  - Officers
+  - Members
 ```
 
 # Other features to implement
