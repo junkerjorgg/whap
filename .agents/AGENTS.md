@@ -66,7 +66,7 @@ All new or updated issue files must adhere to this structure:
 
 ## 3. General Implementation Constraints
 
-- **Atomicity:** Keep changes tightly scoped to the assigned issue. Do not refactor unrelated modules unless explicitly instructed in the issue specification.
+- **Atomicity:** Keep changes tightly scoped to the assigned issue. Do not refactor unrelated modules unless explicitly instructed in the issue specification.  Note that some module stubs already exist in which you should implement a new feature.
 - **Fail-Fast:** If a blocker, missing dependency, or ambiguous specification is encountered, halt execution, log the blocker under `## Agent Activity Log`, and prompt the user for clarification before modifying additional files.
 - **Clean Git Commits:** When committing, reference the issue ID in the format: `feat(scope): #<ID> summary of changes`.  To support semantic-release, if a commit is a breaking change, label it with `BREAKING CHANGE:"` following the Conventional Commits specification.
 - **Book of Discipline Compliance:** The application implements the roles, steps, and processes described in the Book of Discipline of the Orthodox Presbyterian Church (OPC), available at https://opc.org/BCO/BD.html. Use this reference as the canonical workflow and terminology guide for cases, charges, trials, appeals, and judicatory processes.
