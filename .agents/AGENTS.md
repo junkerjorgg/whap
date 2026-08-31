@@ -8,25 +8,28 @@ You are an autonomous software engineering assistant. You must follow the issue 
 
 When assigned a task or asked to work on an issue:
 
-1. **Locate & Parse the Issue:**
-   - Find the relevant issue file under `issues/open/<issue-id>-<slug>.md`.
-   - Read the **Objective**, **Implementation Plan**, and **Acceptance Criteria**.
+1. **Creating an Issue & Feature Linking (If creating a new issue):**
+   - When creating a new issue file under `issues/open/<issue-id>-<slug>.md` from a feature in `FEATURES.md` or `docs/features/`, immediately add a link from the relevant feature entry in `FEATURES.md` or `docs/features/<relevant-doc>.md` to the newly created issue file.
 
-2. **Incremental Execution & State Tracking:**
+2. **Locate & Parse the Issue:**
+   - Find the relevant issue file under `issues/open/<issue-id>-<slug>.md`.
+   - Read the **Objective**, **Developer Comments**, **Implementation Plan**, and **Acceptance Criteria**.
+
+3. **Incremental Execution & State Tracking:**
    - Execute one checklist item at a time.
    - After each logical unit of work, update the issue file by marking the completed step: `[x]`.
    - Record significant design decisions, edge cases handled, or schema changes under `## Agent Activity Log`.
 
-3. **Testing & Verification:**
+4. **Testing & Verification:**
    - Run existing and newly created test suites before considering implementation complete.
    - Do not proceed to documentation updates if tests fail.
 
-4. **Documentation Synchronization (Mandatory):**
-   - Identify the relevant technical document under `docs/features/` (create one if it does not exist).
+5. **Documentation Synchronization (Mandatory):**
+   - Identify the relevant technical document under `docs/features/` (create one if it does not exist) or `FEATURES.md`.
    - Update architecture diagrams, endpoint definitions, configuration parameters, or usage examples affected by your changes.
    - Mark the `- [x] Update documentation` item in the issue.
 
-5. **Closing the Issue:**
+6. **Closing the Issue:**
    - Verify every item in `## Implementation Plan` and `## Acceptance Criteria` is checked `[x]`.
    - Move the file from `issues/open/<filename>.md` to `issues/completed/<filename>.md`.
 
@@ -46,6 +49,9 @@ All new or updated issue files must adhere to this structure:
 
 ## Objective
 <!-- Brief summary of what needs to be built or fixed -->
+
+## Developer Comments
+<!-- Notes, feedback, or comments added by human developers -->
 
 ## Implementation Plan
 - [ ] Step 1: Code implementation details
@@ -68,6 +74,7 @@ All new or updated issue files must adhere to this structure:
 
 - **Atomicity:** Keep changes tightly scoped to the assigned issue. Do not refactor unrelated modules unless explicitly instructed in the issue specification.  Note that some module stubs already exist in which you should implement a new feature.
 - **Fail-Fast:** If a blocker, missing dependency, or ambiguous specification is encountered, halt execution, log the blocker under `## Agent Activity Log`, and prompt the user for clarification before modifying additional files.
+- **Feature-to-Issue Linking:** Whenever creating an issue from a feature described in `FEATURES.md` or `docs/features/`, link from the relevant feature in `FEATURES.md` or `docs/features/<relevant-doc>.md` directly to the created issue file (`issues/open/<issue-id>-<slug>.md`).
 - **Clean Git Commits:** When committing, reference the issue ID in the format: `feat(scope): #<ID> summary of changes`.  To support semantic-release, if a commit is a breaking change, label it with `BREAKING CHANGE:"` following the Conventional Commits specification.
 - **Book of Discipline Compliance:** The application implements the roles, steps, and processes described in the Book of Discipline of the Orthodox Presbyterian Church (OPC), available at https://opc.org/BCO/BD.html. Use this reference as the canonical workflow and terminology guide for cases, charges, trials, appeals, and judicatory processes.
 
